@@ -176,3 +176,4 @@ def test_delete_and_get(client):
     data = json.loads(response2.data)
 
     assert (len(todos) - 1) == len(data)
+
